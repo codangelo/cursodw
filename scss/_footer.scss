@@ -1,0 +1,78 @@
+footer{
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: bold;
+    text-align: center;
+    color: $text-color-2;
+    background-color: $backgroud-color;
+    
+    a{
+        text-decoration: none;
+        color: $text-color-2;
+    }
+    a:hover{
+        color: $text-color-2;
+    }
+
+.footerPadre{
+    display: grid;
+    grid-template-areas:
+    "sobreNosotros productos ayuda"
+    "sobreNosotros productos ayuda"
+    "sobreNosotros productos ayuda";
+   grid-template-rows: auto; 
+   grid-template-columns: auto;
+   grid-row-gap: 1px;
+   grid-column-gap: 1px;
+   justify-items: center;
+   align-items: center;
+   height: 10vh;
+   font-size: $font-size;
+   text-decoration: none;
+   text-align: center;
+}
+
+.footerPadre___sobreNosotros{
+    grid-area: sobreNosotros;
+    align-items: auto;
+    justify-items: center;
+}
+.footerPadre___productos{
+    grid-area: productos;
+    align-items: auto;
+    justify-items: center;
+}
+.footerPadre___ayuda{
+    grid-area: ayuda;
+}    
+.footerPadre___redes{
+    width: $widthredes;
+    margin: auto;
+    display: inline-block;
+    height: auto;
+    padding: 10px;
+}
+.footerPadre___redes:hover{
+    padding: 10px;
+    transform: scale(2)
+}
+.footerPadre___desarrollador{
+    padding: 20px 20px;
+}
+@media only screen and (max-width: 600px) {
+    .footerPadre{
+      font-size: $font-size*0,3;
+      font-weight: lighter;
+      display: grid;
+      grid-template-areas:
+      "sobreNosotros"
+      "productos"
+      "ayuda";
+
+    }
+    .footerPadre___redes{
+        width: $widthredes/2+10;
+
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.h1__khiels{
+    text-align: center;
+    font-size: 0;
+}
+h2{
+    @include h (center, 24px);
+    padding: 10px 0px;
+}
+h3{
+    @include h (left, 18px);
+    padding: 10px 0px;
+
+}
+h4{
+    @include h (left, 32px);
+}
+@media only screen and (max-width: 600px) {
+    h2{
+    font-size: 0,5em;
+    }
+    h3{
+    font-size: 0,5em;
+    }
+    h4{
+    font-size: 0,5em;
+    }
+}
