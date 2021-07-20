@@ -3,3 +3,14 @@
         margin-left: 15%;
         }
 }
+.btn{
+    background-color: $backgroud-color;
+    color:$text-color-2;
+    border-color: $backgroud-color;
+}
+
+.btn:hover{
+    background-color: $backgroud-color2;
+    color:$text-color;
+    border-color: $backgroud-color2;
+}

@@ -56,6 +56,16 @@ h4 {
   .productosHome {
     margin-left: 15%; } }
 
+.btn {
+  background-color: black;
+  color: white;
+  border-color: black; }
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  border-color: white; }
+
 .formulario {
   margin: 30px;
   font-family: "Open Sans", sans-serif;
@@ -69,6 +79,14 @@ h4 {
   .formulario .formulario__titulo--uppercase {
     text-transform: uppercase;
     padding: 10px; }
+  .formulario .formulario__enviar {
+    background-color: black;
+    color: white;
+    border-color: white; }
+  .formulario .formulario__enviar:hover {
+    background-color: white;
+    color: black;
+    border-color: black; }
 
 footer {
   font-family: "Open Sans", sans-serif;
@@ -113,6 +131,7 @@ footer {
     padding: 10px; }
   footer .footerPadre___redes:hover {
     padding: 10px;
+    transition: 700ms;
     transform: scale(2); }
   footer .footerPadre___desarrollador {
     padding: 20px 20px; }
@@ -128,7 +147,7 @@ footer {
 .acercade {
   font-family: "Open Sans", sans-serif;
   text-align: justify;
-  font-size: 12px;
+  font-size: 14px;
   color: black;
   line-height: 2;
   margin: 5px 30px;
@@ -205,6 +224,12 @@ footer {
   .productos {
     font-size: 0,5em;
     grid-template-areas: "foto1" "titulo1" "foto2" "titulo2" "foto3" "titulo3" "foto4" "titulo4"; } }
+
+a {
+  text-decoration: none; }
+
+.productos__titulo {
+  padding: 1% 10%; }
 
 .boxProductPage {
   margin: auto;
