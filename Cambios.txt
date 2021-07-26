@@ -1,6 +1,3 @@
--La seccion de cada producto le falta darle mas estilo, ya sea al precio o al titulo, podes jugar un poco mas con eso
-
--Que tu hoja de estilo se llame style.css o estilo.css 
 
 
 -subir al servidor
@@ -17,6 +14,9 @@ listo
 -Presupuesto
 -En ayuda los input podrian tener todos el mismo ancho, asi se forma como una caja visual, no que nombre y mail lleguen a la mitad, luego otras consultas sea mas largo y despues los comentarios de nuevo se achique su ancho. El boton tambien puede tener un poco mas de estilo . El input de la caja de comentarios es mas grueso el borde que las demas, se veria mejor que sean iguales
 - Agregar FAVICON
+-La seccion de cada producto le falta darle mas estilo, ya sea al precio o al titulo, podes jugar un poco mas con eso
+x
+-Que tu hoja de estilo se llame style.css o estilo.css 
 
 
 
