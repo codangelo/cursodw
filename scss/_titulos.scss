@@ -14,6 +14,9 @@ h3{
 h4{
     @include h (left, 32px);
 }
+.e404{
+    padding: 10%;
+}
 @media only screen and (max-width: 600px) {
     h2{
     font-size: 0,5em;

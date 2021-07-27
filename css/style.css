@@ -32,6 +32,9 @@ h4 {
   color: black;
   font-size: 32px; }
 
+.e404 {
+  padding: 10%; }
+
 @media only screen and (max-width: 600px) {
   h2 {
     font-size: 0,5em; }
@@ -48,13 +51,12 @@ h4 {
 
 .navbar {
   font-family: "Open Sans", sans-serif;
-  background-color: black;
-  color: white;
   font-weight: bold; }
 
 @media only screen and (max-width: 600px) {
   .productosHome {
-    margin-left: 15%; } }
+    padding-left: 10%;
+    padding-right: 5%; } }
 
 .btn {
   background-color: black;
@@ -65,6 +67,11 @@ h4 {
   background-color: white;
   color: black;
   border-color: white; }
+
+.subtitulo__home {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-transform: uppercase; }
 
 .formulario {
   margin: 30px;
@@ -220,16 +227,18 @@ footer {
   align-items: auto;
   justify-items: center; }
 
-@media only screen and (max-width: 600px) {
-  .productos {
-    font-size: 0,5em;
-    grid-template-areas: "foto1" "titulo1" "foto2" "titulo2" "foto3" "titulo3" "foto4" "titulo4"; } }
-
 a {
   text-decoration: none; }
 
 .productos__titulo {
-  padding: 1% 10%; }
+  padding: 1% 10%;
+  text-transform: uppercase;
+  background-image: url(https://www.kiehls.es/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-kiehls-es-Library/default/dw694f1518/images/plp/cover/category-view-all-skincare-desk.jpg?sw=2000&q=70); }
+
+@media only screen and (max-width: 600px) {
+  .productos {
+    font-size: 0,5em;
+    grid-template-areas: "foto1" "titulo1" "foto2" "titulo2" "foto3" "titulo3" "foto4" "titulo4"; } }
 
 .boxProductPage {
   margin: auto;
@@ -277,8 +286,9 @@ a {
 @media only screen and (max-width: 600px) {
   .paginaProducto {
     font-size: 0,5em;
-    padding: 2%;
     grid-template-areas: "foto" "titulo" "precio" "desc";
     justify-content: center; }
+  .paginaProducto__titulo {
+    padding: 20%; }
   .paginaProducto__descripcion {
     padding: 20%; } }

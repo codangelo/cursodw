@@ -59,6 +59,14 @@
     align-items: auto;
     justify-items: center;
 }
+a{
+    text-decoration: none;
+}
+.productos__titulo{
+    padding: 1% 10%;
+    text-transform: uppercase;
+    background-image: url(https://www.kiehls.es/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-kiehls-es-Library/default/dw694f1518/images/plp/cover/category-view-all-skincare-desk.jpg?sw=2000&q=70);
+}
 @media only screen and (max-width: 600px) {
     .productos{
         font-size: 0,5em;
@@ -73,10 +81,7 @@
         "titulo4";
  
     }
+
+
 }
-a{
-    text-decoration: none;
-}
-.productos__titulo{
-    padding: 1% 10%;
-}
+

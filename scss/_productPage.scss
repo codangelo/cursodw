@@ -40,7 +40,6 @@
 @media only screen and (max-width: 600px) {
     .paginaProducto{
         font-size: 0,5em;
-        padding: 2%;
         grid-template-areas:
         "foto"
         "titulo"
@@ -49,8 +48,10 @@
         justify-content: center;
  
     }
+    .paginaProducto__titulo{
+        padding: 20%;
+    }
     .paginaProducto__descripcion{
         padding: 20%;
     }
 }
-

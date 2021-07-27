@@ -1,0 +1,28 @@
+-La seccion de cada producto le falta darle mas estilo, ya sea al precio o al titulo, podes jugar un poco mas con eso
+
+-Que tu hoja de estilo se llame style.css o estilo.css 
+
+
+-subir al servidor
+
+
+
+
+listo
+-No adjuntar la carpeta node_modules, para esto crea el archivo git ignore 
+-En el index el carrusel si va a tener la imagen el boton de compra ahora deberia ser un link que te redireccione a ese producto
+-Antes de los productos en el index deberia ir un titulo con un subtitulo de que es lo que vas a mostrar debajo, no que esten solos 
+-En el html de productos tambien falta un subtitulo, una frase algo que anticipe que vas a encontrar en esa seccion, si no se ve muy basico
+- error 404
+-Presupuesto
+-En ayuda los input podrian tener todos el mismo ancho, asi se forma como una caja visual, no que nombre y mail lleguen a la mitad, luego otras consultas sea mas largo y despues los comentarios de nuevo se achique su ancho. El boton tambien puede tener un poco mas de estilo . El input de la caja de comentarios es mas grueso el borde que las demas, se veria mejor que sean iguales
+- Agregar FAVICON
+
+
+
+No:
+
+-Los links de la nav bar los cetraria, que queden debajo del logo en vez de alineado a la izquierda
+-Fijate en el footer en desktop yo pondria sobre nosotros y productos uno debajo del otro alineado a la izquierda,  las redes en el centro, y ayuda y desarrollado por vos alineado a la derecha asi te quedan las 3 col mas parejas
+-En sobre nosotros tambien estaria bueno colocar una foto del equipo o de la producción o local
+

@@ -1,6 +1,7 @@
 @media only screen and (max-width: 600px) {
     .productosHome{
-        margin-left: 15%;
+        padding-left: 10%;
+        padding-right: 5%;
         }
 }
 .btn{
@@ -13,4 +14,9 @@
     background-color: $backgroud-color2;
     color:$text-color;
     border-color: $backgroud-color2;
+}
+.subtitulo__home{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
 }
