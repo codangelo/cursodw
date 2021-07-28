@@ -12,57 +12,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <style>
+        * {
+            Margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        section{
+            margin: auto;
+            padding: 30%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            justify-content: center;
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img src="images/logo.png" alt="Khiel's Uruguay" title="Khiel's Uruguay" id="logo"></a>
-        <h1 class="h1__khiels">Kiel's Uruguay</h1>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="paginas/productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="paginas/sobre-nosotros.html">Sobre Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="paginas/ayuda.html">Ayuda</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <section class="e404"><h2>Lo sentimos, la página que buscas no existe</h2></section>
-    <footer>
-        <div class="footerPadre">
-            <div class="footerPadre___sobreNosotros"><a href="paginas/sobre-nosotros.html">Sobre Nosotros</a></div>
-            <div class="footerPadre___productos"><a href="paginas/productos.html">Productos</a></div>
-            <div class="footerPadre___ayuda"><a href="paginas/ayuda.html">Ayuda</a></div>
-        </div>
-        <a href="https://www.instagram.com/kiehlsspain/" target="_blank"><img src="icons/instagram.png" width="20"
-                alt="instagram" class="footerPadre___redes"></a>
-        <a href="https://twitter.com/kiehlsspain" target="_blank"><img src="icons/twitter.png" width="20" alt="twitter"
-                class="footerPadre___redes"></a>
-        <a href="https://www.facebook.com/KiehlsSpain/" target="_blank"><img src="icons/facebook.png" width="20"
-                alt="facebook" class="footerPadre___redes"></a>
-
-        <div class="footerPadre___desarrollador">
-            <p> Desarrollado por Christian D'Angelo </p>
-        </div>
-
-    </footer>
-    <script src="js/bootstrap.js"></script>
+    <section class="e404">
+        <h2>Lo sentimos, la página que buscas no existe</h2>
+        <h3><a href="index.html">Hace click aquí para volver al menú principal</a></h3>
+    </section>
 </body>
 
 </html>

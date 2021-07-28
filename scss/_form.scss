@@ -15,10 +15,14 @@
     text-transform: uppercase;
     padding: 10px;
     }
+    formulario__mail{
+        width: 500px;
+    }
     .formulario__enviar{
         background-color: $backgroud-color;
         color:$text-color-2;
         border-color: $backgroud-color2;
+        justify-content: center;
     }    
     .formulario__enviar:hover{
         background-color: $backgroud-color2;
